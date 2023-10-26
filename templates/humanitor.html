@@ -1,0 +1,56 @@
+@extends('layouts.app')
+
+@section('styles')
+    <link rel="stylesheet" href="/css/chiefs.css">
+@endsection
+
+@section('navbar')
+    @include('layouts.navbar')
+@endsection
+
+@section('content')
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="rukov-con">
+                <h2>Ijtimoiy va gumanitar fanlar kafedrasi</h2>
+                <div class="person">
+                    <div class="person-img">
+                        <img src="/img/departments/1.jpg" alt="Eshpo‘latova Saodat Maxmatovna">
+                    </div>
+                    <div class="person-about">
+                        <h2 class="per-name">Eshpo‘latova Saodat Maxmatovna</h2>
+                        <p class="per-pos">Alisher Navoiy nomidagi Toshkent davlat oʻzbek tili va adabiyoti universiteti akademik litsey kafedra mudiri</p>
+                    </div>
+                </div>
+                <p class="text-justify pb0">
+                    &nbsp;&nbsp;&nbsp;&nbsp;“Ijtimoiy va gumanitar fanlar” kafedrasida jami 21 ta o’qituvchi faoliyat ko’rsatmoqda. Kafedrada faoliyat yuritayotgan o’qituvchilardan bosh o’qituvchi 4ta, yetakchi o’qituvchi 3ta, katta o’qituvchi 2ta, qolganlari oliy ma’lumotli o’qituvchilar. Barcha o’qituvchilar dars jarayonida turli xil ko’rgazmali qurollar, tarqatma materiallardan foydalanib dars o’tadilar. Mustaqillik kuni, Ustoz va murabbiylar kuni, O’zbek tiliga Davlat tili maqomi berilgan kun, buyuk bobolarimiz Alisher Navoiy hamda Zahiriddin Muhammad Bobur tavalludlari va boshqa tadbirlarni kafedra o’qituvchilari o’quvchilar bilan birgalikda uyushqoqlik bilan olib borishadi. Bundan tashqari, ijodkorlar bilan uchrashuvlar, ijodkor o’quvchilar bilan she’rxonlik kechalari, insholar tanlovi o’tkazib turiladi. “Ona tili va adabiyoti” kafedrasiga tegishli bo’lgan.
+                </p>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <p class="mb0"><strong>Kafedrada o'qitiladigan fanlar</strong></p>
+                        - Ona tili<br>
+                        - Tarix<br>
+                        - Huquqshunoslik<br>
+                        - Din tarixi<br>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <p class="mb0"><strong>To'garaklar</strong></p>
+                        - “Yosh tilshunos”<br>
+                        - “Yosh kitobxon”<br>
+                        - “Voleybol”, “Futbol”<br>
+                        - “Mohir o’quvchilar”<br>
+                        - “Yosh tarixchi”<br>
+                        - “Huquq bilimdonlari”<br>
+                        - “Tarixshunoslar”
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
+
+@section('footer')
+    @include('layouts.footer')
+@endsection

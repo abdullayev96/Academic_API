@@ -1,0 +1,82 @@
+<
+{% load static %}
+
+<div class="probootstrap-header-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-9 probootstrap-top-quick-contact-info">
+                <span><i class="icon-location2"></i>Toshkent shahar Yakkasaroy tuman Bog'ibo'ston ko'chasi 62-uy.</span>
+                <a href="tel:+998712539437" target="_blank"><i class="icon-phone2" aria-hidden="true"></i>&emsp;&nbsp;<span class="text-dark">+ 998 71 253 94 37</span></a>
+                <a href="tel:+998712539445" target="_blank"><i class="icon-phone2" aria-hidden="true"></i>&emsp;&nbsp;<span class="text-dark">+ 998 71 253 94 45</span></a>
+                <span><i class="icon-mail"></i>navoiy-al@inbox.uz</span>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 probootstrap-top-social">
+                <ul>
+                    <li><a href="https://facebook.com/TSUULL.Litsey/"><i class="icon-facebook2"></i></a></li>
+                    <li><a href="http://t.me/akademik_litsey_matbuot_xizmati"><i class="icon-telegram"></i></a></li>
+                    <li><a href="http://youtube.com"><i class="icon-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-default probootstrap-navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="btn-more js-btn-more visible-xs">
+                <a href="#"><i class="icon-dots-three-vertical "></i></a>
+            </div>
+            <!-- Logo
+            <a class="navbar-brand" href="index-2.html" title="uiCookies:Enlight">Enlight</a>
+            -->
+        </div>
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="{{ route('main') }}">Bosh sahifa</a></li>
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tuzilma</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ route('chiefs')}}">Rahbariyat</a></li>
+                        <li class="dropdown-submenu dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>Kafedralar</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{{ route('gumanitar') }}">Ijtimoiy va gumanitar fanlar</a></li>
+                                <li><a href="{{ route('xorijiy') }}">Xorijiy tillar</a></li>
+                                <li><a href="#">Aniq va tabiiy fanlar</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Vakansiya</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Faoliyat</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ route('main') }}#news">Yangiliklar</a></li>
+                        <li><a href="#">Litsey iftixori</a></li>
+                        <li><a href="#">Galleriya</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Meyoriy hujjatlar</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ route('qaror') }}">Prezident qaror va farmoyishlari</a></li>
+                        <li><a href="#">O'qituvchiga yordam</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">O'quvchilarga</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://test.navoiy-uni.uz">Onlayn test</a></li>
+                        <li><a href="http://online.navoiy-uni.uz">Masofaviy ta'lim</a></li>
+                        <li><a href="http://ziyonet.uz">Elektron kutubxona</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#contact">Bog'lanish</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

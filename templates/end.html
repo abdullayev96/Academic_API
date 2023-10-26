@@ -1,0 +1,31 @@
+@extends('layouts.app')
+
+@section('navbar')
+    @include('layouts.navbar')
+@endsection
+
+@section('content')
+
+    <div class="container">
+        <div class="row">
+            <h3 class="text-center">Bitiruvchilar uchun qo'llanmalar</h3>
+            <table class="table table-hover" style="color: #000000">
+                <tbody>
+                	<tr><td><a href="\public\yangi.pdf">2022-2023 OTM ga o'tish ballari</a></td></tr>
+					<tr><td><a href="\public\IG1.pdf">YaDA Ijtimoiy-gumanitar fanlar-1</a></td></tr>
+					<tr><td><a href="\public\IG1R.pdf">YaDA Ijtimoiy-gumanitar fanlar-1 (Rus)</a></td></tr>
+					<tr><td><a href="\public\XF.pdf">YaDA Xorijiy filologiya fanlar</a></td></tr>
+					<tr><td><a href="\public\XFR.pdf">YaDA Xorijiy filologiya fanlar (Rus)</a></td></tr>
+					<tr><td><a href="\public\AF.pdf">YaDA Aniq fanlar - 3</a></td></tr>
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+@endsection
+
+
+@section('footer')
+    @include('layouts.footer')
+@endsection
